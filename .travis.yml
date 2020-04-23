@@ -11,11 +11,11 @@ scripts:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-1"
-  app: "docker-react"
-  env: "DockerReact-env"
-  bucket_name: "elasticbeanstalk-us-east-1-827414381419"
-  bucket_path: "docker-react"
+  region: "us-west-2"
+  app: "datjan-react-docker"
+  env: "DatjanReactDocker-env"
+  bucket_name: "datjan-react-docker"
+  bucket_path: "datjan-docker-react.zip"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
